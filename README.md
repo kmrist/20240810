@@ -2,5 +2,7 @@
 ## 単体化合物
 ### aaa
 
-pip intall -r requirements.txt
+```
+pip intall -r requirements.txt  
 python manage.py runserver
+```
