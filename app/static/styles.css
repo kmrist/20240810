@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    background-color: #f1f1f1; /* タブの背景色 */
+}
+
+.tab-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+    border-radius: 5px 5px 0 0; /* 角を丸くする */
+}
+
+.tab-button:hover {
+    background-color: #e0e0e0;
+}
+
+.active {
+    background-color: #fff;
+    border-top: 2px solid #007bff; /* アクティブタブの上部の色 */
+    font-weight: bold;
+}
+
+.tab {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px; /* 下部の角を丸くする */
+}
+
+/* 最初のタブを表示 */
+.tab:first-of-type {
+    display: block;
+}
+
+.tab {
+    display: none; /* デフォルトでは非表示 */
+}
+
+.tab:first-of-type {
+    display: block; /* 最初のタブは表示 */
+}

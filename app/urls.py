@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import hello_world
+from .views import index, tab1, tab2, tab3
 
 urlpatterns = [
-    path('', hello_world, name='hello_world'),
+    path('', index, name='index'),
 ]
