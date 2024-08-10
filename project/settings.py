@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h#ko)&0^(6tk@r)vtu&^3yas(j9plb4eko+povyj!&f=_t^f(h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['two0240810.onrender.com']  # ここにホスト名を追加
 
 
 # Application definition
