@@ -19,3 +19,21 @@ function showTab(tabId, event) {
 document.addEventListener('DOMContentLoaded', function () {
     showTab('tab1', { currentTarget: document.querySelector('.tab-button') });
 });
+
+
+// tab1
+function openModal() {
+    document.getElementById("modal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+// モーダルの外側をクリックしたときに閉じる
+window.onclick = function(event) {
+    const modal = document.getElementById("modal");
+    if (event.target == modal) {
+        closeModal();
+    }
+}
